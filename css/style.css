@@ -3,7 +3,8 @@ html{
   background-image: url(../img/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  min-width: 1280px;
+  min-width: 1024px;
+  height: 100%;
 }
 
 a{
@@ -23,6 +24,10 @@ display:table;
 }
 .clearfix:after {
 clear:both;
+}
+
+.mobile_title{
+  display: none;
 }
 
 .container{
@@ -45,6 +50,7 @@ img{
   margin-left: 20%;
 }
 
+
 .button{
   width: 100%;
   height: 50px;
@@ -53,7 +59,7 @@ img{
   border: solid 1px #ffffff;
 }
 
-a:hover{
+.button a:hover{
   background-color: #f0f0f0;
   color: #000000;
 }

@@ -1,0 +1,40 @@
+@media screen and (max-width: 480px) {
+  html{
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 0;
+  }
+
+  .container{
+    height: 100%;
+  }
+
+  .img_container{
+    margin-top: 10px;
+  }
+
+  .mobile_title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 3em;
+    margin-top: 5%;
+  }
+
+  .title{
+    display: none;
+  }
+
+  .img_and_btn{
+    float: none;
+    margin-left: 20%;
+  }
+
+  .img_and_btn{
+    width: 50%;
+    float: none;
+    margin: auto;
+  }
+}
